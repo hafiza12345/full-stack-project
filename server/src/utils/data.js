@@ -4,8 +4,8 @@ const data = [
       "aRecName: Full=Antimicrobial peptides; Contains: RecName: Full=Antimicrobial peptide 1; Short=EcAMP1; Contains: RecName: Full=Antimicrobial peptide 3; Short=EcAMP3; Contains: RecName: Full=Antimicrobial peptide 2; Short=EcAMP2; Contains: RecName: Full=Antimicrobial peptide 2.1; Short=EcAMP2.1; Flags: Precursor",
     protein_aa: " 392 aa protein",
     ref: {
-      Accession: "XP_015615526.1",
-      GI: "1002304331",
+      accession_number: "XP_015615526.1",
+      accession_number: "1002304331",
     },
     link1: "Physicochemical properties",
     link2: "FASTA",

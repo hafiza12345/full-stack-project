@@ -98,14 +98,14 @@ const PaginationComp = (props: PaginationProps) => {
                             {val.protein_link_title}
                           </LinkP>
                           <P weight="500" className="mb-0">
-                            {val.protein_link_title}
+                            {val.protein_aa}
                           </P>
                           <Wrapper className="d-flex flex-row align-items-center">
                             <P size="12px" className="mb-1 me-2">
-                              Accession: {val.ref.Accession}
+                              Accession: {val.accession_number}
                             </P>
                             <P size="12px" className="mb-1">
-                              GI: {val.ref.GI}
+                              GI: {val.accession_number}
                             </P>
                           </Wrapper>
                           <Wrapper className="d-flex flex-row">

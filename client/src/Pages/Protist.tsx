@@ -22,13 +22,13 @@ const Protist = () => {
 
     const dataMain = await res.json();
 
-    if (dataMain.message === "done") {
-      setData(dataMain.data);
+    // if (dataMain.message === "done") {
+      setData(dataMain);
 
       setMount(true);
-    } else {
-      setMount(false);
-    }
+    // } else {
+    //   setMount(false);
+    // }
   };
 
   useEffect(() => {
@@ -49,12 +49,12 @@ const Protist = () => {
     updatedList = updatedList.filter((item) => {
       if (selectedOption == 2) {
         return (
-          item.ref.Accession.toLowerCase().indexOf(query.toLowerCase()) !== -1
+          item.accession_number.accession_number.toLowerCase().indexOf(query.toLowerCase()) !== -1
         );
       } else if (selectedOption == 1) {
-        return item.ref.GI.toLowerCase().indexOf(query.toLowerCase()) !== -1;
+        return item.accession_number.accession_number.toLowerCase().indexOf(query.toLowerCase()) !== -1;
       } else {
-        return item.headline.toLowerCase().indexOf(query.toLowerCase()) !== -1;
+        return item.protien_link_title.toLowerCase().indexOf(query.toLowerCase()) !== -1;
       }
     });
 

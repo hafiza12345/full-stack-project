@@ -1,0 +1,19 @@
+{
+  "name": "rtamps-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafiza12345/full-stack-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hafiza12345/full-stack-project/issues"
+  },
+  "homepage": "https://github.com/hafiza12345/full-stack-project#readme"
+}
